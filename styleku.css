@@ -1,0 +1,238 @@
+
+/* RESET DAN TAMPILAN HALAMAN */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f3df;
+    color: #292929;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #b7c9d5;
+}
+
+/* HEADER */
+#header {
+    background-color: #deb887;
+    border: 5px solid #eee5d5;
+    padding: 12px;
+    text-align: center;
+}
+
+#header h1 {
+    color: blue;
+    font-size: 27px;
+    margin: 5px 0 15px;
+}
+
+#header blockquote {
+    background-color: #ffcc00;
+    border: 1px dotted #a68a00;
+    margin: 0;
+    padding: 8px;
+    color: #222;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#soekarno {
+    font-weight: normal;
+}
+
+/* NAVIGASI */
+.navigasi {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navigasi ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigasi li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.navigasi a {
+    color: purple;
+    font-size: 13px;
+}
+
+.navigasi a:hover {
+    color: blue;
+}
+
+/* DUA GAMBAR UTAMA */
+.gambar {
+    text-align: center;
+    margin: 10px 0 15px;
+}
+
+.gambar img {
+    width: 190px;
+    max-width: 45%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+/* PARAGRAF ARTIKEL */
+.isi {
+    margin: 10px;
+}
+
+.isi p {
+    text-align: justify;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.isi p:first-child::first-letter {
+    color: blue;
+    font-size: 40px;
+    float: left;
+    line-height: 0.85;
+    padding-right: 4px;
+}
+
+.jawa {
+    font-weight: bold;
+}
+
+/* PROFIL DAN BUDIDAYA */
+#profil,
+#berternak {
+    margin: 20px 10px;
+}
+
+#profil h3,
+#berternak h3 {
+    color: #292929;
+    font-size: 19px;
+    border-bottom: 2px solid #deb887;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
+#profil ul,
+#berternak ol {
+    padding-left: 28px;
+}
+
+#profil li,
+#berternak li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#berternak h4 {
+    color: #654522;
+    font-size: 15px;
+    margin: 8px 0 4px;
+}
+
+#berternak p {
+    text-align: justify;
+    margin: 5px 0 12px;
+}
+
+/* GALERI GAMBAR */
+.koleksi {
+    background-color: #e9e2cc;
+    text-align: center;
+    padding: 12px;
+    margin: 20px 0;
+}
+
+.koleksi img {
+    width: 21%;
+    max-width: 180px;
+    height: auto;
+    margin: 5px;
+    vertical-align: middle;
+    border: 3px solid white;
+}
+
+/* PROMOSI */
+.promo {
+    background-color: #fff0c9;
+    border: 2px solid #d8b36c;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0 5px;
+}
+
+.promo h2 {
+    color: darkblue;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.promo h3 {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.promo del {
+    color: #777;
+}
+
+.promo strong {
+    color: #c62828;
+    font-size: 21px;
+}
+
+#Wa {
+    color: green;
+    font-weight: bold;
+}
+
+.promo ol {
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+}
+
+.promo a {
+    color: purple;
+}
+
+/* RESPONSIF UNTUK LAYAR KECIL */
+@media (max-width: 600px) {
+    body {
+        margin: 5px;
+        padding: 6px;
+    }
+
+    #header h1 {
+        font-size: 21px;
+    }
+
+    #header blockquote {
+        font-size: 12px;
+    }
+
+    .gambar img {
+        width: 44%;
+    }
+
+    .koleksi img {
+        width: 42%;
+    }
+
+    .isi {
+        margin: 8px 4px;
+    }
+
+    .promo h2 {
+        font-size: 19px;
+    }
+}
